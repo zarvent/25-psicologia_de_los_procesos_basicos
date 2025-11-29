@@ -7,7 +7,7 @@
     <title>cszv</title>
 
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,7 +53,7 @@
     </style>
 </head>
 
-<body class="bg-gray-50 min-h-screen">
+<body class="bg-gray-50 min-h-screen flex flex-col">
     <!-- Header -->
     <header class="gradient-bg text-white">
         <div class="container mx-auto px-6 py-16">
@@ -66,14 +66,14 @@
                 </h1>
                 <p class="text-xl md:text-2xl font-light opacity-90 max-w-3xl mx-auto">
                     Explorando los fundamentos de la mente humana a través del análisis científico y la investigación
-                    académica
+                    académica.
                 </p>
             </div>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-6 py-16">
+    <main class="container mx-auto px-6 py-16 flex-grow">
         <!-- Contenido Académico -->
         <section class="mb-16">
             <div class="text-center mb-12">
@@ -83,51 +83,51 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Psicología de los Procesos Básicos -->
-                <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                <article class="bg-white rounded-xl shadow-lg p-8 card-hover flex flex-col">
                     <div class="flex items-center justify-center w-12 h-12 bg-purple-100 rounded-lg mb-6">
                         <i data-lucide="brain" class="w-6 h-6 text-purple-600"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800 mb-3">
                         Psicología de los Procesos Básicos
                     </h3>
-                    <p class="text-gray-600 mb-6">
-                        Análisis profundo sobre percepción, atención, memoria y aprendizaje
+                    <p class="text-gray-600 mb-6 flex-grow">
+                        Análisis profundo sobre percepción, atención, memoria y aprendizaje.
                     </p>
                     <a href="psicologia-de-los-procesos-basicos/index-psicologia-de-los-procesos-basicos.html"
-                        class="inline-flex items-center text-purple-600 font-medium hover:text-purple-700 transition-colors">
+                        class="inline-flex items-center text-purple-600 font-medium hover:text-purple-700 transition-colors mt-auto">
                         Explorar contenido
                         <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
                     </a>
-                </div>
+                </article>
 
                 <!-- Placeholder para futuros contenidos -->
-                <div class="bg-white rounded-xl shadow-lg p-8 card-hover opacity-60">
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover opacity-60 flex flex-col">
                     <div class="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-lg mb-6">
                         <i data-lucide="plus" class="w-6 h-6 text-gray-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-400 mb-3">
                         Próximo Contenido
                     </h3>
-                    <p class="text-gray-400 mb-6">
-                        Nuevos temas en desarrollo
+                    <p class="text-gray-400 mb-6 flex-grow">
+                        Nuevos temas en desarrollo.
                     </p>
-                    <span class="inline-flex items-center text-gray-400 font-medium">
+                    <span class="inline-flex items-center text-gray-400 font-medium mt-auto">
                         Próximamente
                         <i data-lucide="clock" class="w-4 h-4 ml-2"></i>
                     </span>
                 </div>
 
-                <div class="bg-white rounded-xl shadow-lg p-8 card-hover opacity-60">
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover opacity-60 flex flex-col">
                     <div class="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-lg mb-6">
                         <i data-lucide="plus" class="w-6 h-6 text-gray-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-400 mb-3">
                         Próximo Contenido
                     </h3>
-                    <p class="text-gray-400 mb-6">
-                        Nuevos temas en desarrollo
+                    <p class="text-gray-400 mb-6 flex-grow">
+                        Nuevos temas en desarrollo.
                     </p>
-                    <span class="inline-flex items-center text-gray-400 font-medium">
+                    <span class="inline-flex items-center text-gray-400 font-medium mt-auto">
                         Próximamente
                         <i data-lucide="clock" class="w-4 h-4 ml-2"></i>
                     </span>
@@ -158,36 +158,19 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-12">
+    <footer class="bg-gray-800 text-white py-12 mt-auto">
         <div class="container mx-auto px-6 text-center">
             <div class="flex items-center justify-center mb-4">
                 <i data-lucide="brain-circuit" class="w-6 h-6 mr-2"></i>
-                <span class="font-semibold">Sebastian Zambrana</span>
+                <span class="font-semibold">Sebastián Zambrana</span>
             </div>
             <p class="text-gray-400">
-                &copy; 2025 - Espacio donde sintetizo la informacion que estudio sobre la psicologia
+                &copy; 2025 - Espacio donde sintetizo la información que estudio sobre la psicología.
             </p>
         </div>
     </footer>
 
-    <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
-
-        // Add some interactive elements
-        document.addEventListener('DOMContentLoaded', function () {
-            // Add pulse animation to first card
-            const firstCard = document.querySelector('.card-hover');
-            if (firstCard) {
-                firstCard.classList.add('pulse-animation');
-
-                // Remove pulse after 6 seconds
-                setTimeout(() => {
-                    firstCard.classList.remove('pulse-animation');
-                }, 6000);
-            }
-        });
-    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>mi espacio academico de psicologia
