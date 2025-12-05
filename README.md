@@ -10,7 +10,7 @@ el repo tiene:
 Podés usar este repo como base si querés publicar tus propios apuntes o resúmenes en GitHub Pages.
 
 ## Cómo verlo
-Entrando a https://zarvent.github.io/25-psicologia_de_los_procesos_basicos/     
+Entrando a https://zarvent.github.io/25-psicologia_de_los_procesos_basicos/
 
 La forma más sencilla es abrir `index.html` en tu navegador o, si querés algo un poco más prolijo, levantar un servidor local, por ejemplo con Python:
 
