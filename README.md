@@ -11,7 +11,8 @@ el repo tiene:
 ## Cómo verlo
 Entrando a https://zarvent.github.io/25-psicologia_de_los_procesos_basicos/
 
-La forma más sencilla es abrir `index.html` en tu navegador o, si querés algo un poco más prolijo, levantar un servidor local, por ejemplo con Python:
+
+en local con el repo descargado abrir `index.html` en tu navegador o, si querés algo un poco más prolijo, levantar un servidor local, por ejemplo con Python:
 
 ```bash
 python -m http.server
