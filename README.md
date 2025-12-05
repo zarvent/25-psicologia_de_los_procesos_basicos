@@ -7,7 +7,6 @@ el repo tiene:
 - Un artículo en HTML con el contenido de la materia.
 - Archivos de estilos (Tailwind y CSS) y un poco de JavaScript para detalles visuales.
 
-Podés usar este repo como base si querés publicar tus propios apuntes o resúmenes en GitHub Pages.
 
 ## Cómo verlo
 Entrando a https://zarvent.github.io/25-psicologia_de_los_procesos_basicos/
